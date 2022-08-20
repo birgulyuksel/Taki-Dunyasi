@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>Form Etiketleri</title>
+   </head>
+   <body>
+     <form>
+	    <label>Ad Soyad</label> <!--Girilicek yerin bilgisi -->
+		<br>
+		<input type="text" name="isim" id="isim" placeholder="Ad Soyad" required> <!--Ad soyad girme yeri -->
+		<br><br>
+		<label>Şifre Oluşturun</label>
+		<br>
+		<input type="password" name="sifre" id="sifre" placeholder="Şifre Giriniz" required> <!--Şifre girme yeri -->
+		<br><br>
+		<label>Email Adresi</label>
+		<br>
+		<input type="email" name="email" id="email" placeholder="Email Giriniz" required><!--Email girme yeri -->
+		<br><br>
+		<label>Telefon Numarası</label>
+		<br>
+		<input type="tel" name="tel" id="tel" placeholder="Telefon Numarası Giriniz" required><!--Telefon numarası girme yeri -->
+		<br><br>
+		<label>Cinsiyet</label>
+		<br>
+		<input type="radio" name="cinsiyet" id="cinsiyet" value="Erkek" required>Erkek<!--Cinsiyet girme yeri -->
+		<input type="radio" name="cinsiyet" id="cinsiyet" value="Kadın" required >Kadın
+		<input type="radio" name="cinsiyet" id="cinsiyet" value="x">Belirtmek İstemiyorum
+		<br><br>
+		<label>Ders Seçimi</label>
+		<br>
+		<input type="checkbox" name="ders" id="ders" value="HTML">HTML<!--ders girme yeri -->
+		<input type="checkbox" name="ders" id="ders" value="CSS">CSS
+		<input type="checkbox" name="ders" id="ders" value="PHP">PHP
+		<br><br>
+		<input type="submit" value="Kayıt Ol">
+		<br>
+		<input type="reset" value="temizle">
+	 </form>
+   </body>
+</html>

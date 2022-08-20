@@ -1,0 +1,124 @@
+<!DOCTYPE html> <!--Html kullanıcığımızı bildirme -->
+<html>
+<head>
+  <link rel="shortcut icon" href="C:\Users\birgu\Desktop\ders/favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8"> <!--Türkçe karakter kullanıcağımız -->
+  <meta name="Description" content="Web Tasarım"> <!--Sayfa hakkında bilgi -->
+  <meta name="keywords" content="html,css,javascript"> <!--Anahtar kelimeler -->
+  <style>p{color:brown;}
+  h1{color:red;}
+  h2{color:purple;}
+  h3{color:darkblue;}
+  h5{color:orange;}
+  li{color:brown;}</style> <!-- Paragrafın yeşil renkte olması -->
+  <title>OSTİM SOFTWARE ENG.</title> <!-- Başlık -->
+  <style>
+  td{border: 1px solid #000;}</style>
+</head>
+<body id="ust">
+<header>
+ <h1>OSTİM Teknik Üniversitesi</h1>
+ <h2>Yazılım Mühendisliği</h2>
+ <h3>Örnek Video'yu ve Ses'i oynat</h3>
+ <video src="C:\Users\birgu\Desktop\ders/video.mp4" controls width="400" autoplay  preload height="400" loop muted></video><br>
+ <audio controls><source src="C:\Users\birgu\Desktop\ders/ses.mp3 "></audio>
+ <hr>
+ <form name="kayit" action="on" method="GET" autocomplete="on">
+   <table border="1">
+ <tr><td>Ad Soyad:</td><td><input type="text" name="isim" id="isim" placeholder="Ad Soyad Giriniz" size="20" maxlenght="30"required></td></tr>
+ <br>
+ <tr><td>Email Adresi:</td><td><input type="email" name="email" id="email" placeholder="Email Giriniz" size="20" maxlenght="30"required></td></tr>
+ <br>
+<tr><td>Telefon Numarası:</td><td><input type="tel" name="tel" id="tel" placeholder="Telefon Numarası Giriniz"size="20" maxlenght="30"required></td></tr>
+ </table>
+ <br>
+ <label>Öğrenci Tipi</label>
+ <br>
+ <input type="radio" name="ogrenci" id="ogrenci" value="Aday Ogrenci">Aday Öğrenci
+ <input type="radio" name="ogrenci" id="ogrenci" value="Mevcut Ogrenci">Mevcut Öğrenci
+ <br><br>
+ Doğum Yılı:
+ <select name="yil">
+   <option selected>2003</option>
+   <option>2002</option>
+   <option>2001</option>
+   <option>2000</option>
+   <option >1999</option>
+ </select>
+ <br><br>
+ <input type="image" src="C:\Users\birgu\Desktop\ders/submit.jpg" width="105" value=Giriş>
+ <input type="image" src="C:\Users\birgu\Desktop\ders/reset.png" width="50" value="Temizle">
+
+ </form>
+ <h2>OSTİM fotoğrafını indir.</h2>
+ <a href="C:\Users\birgu\Desktop\ders/MRMfpLhh.png">Fotoğrafı indir..</a>
+</header>
+<script>alert("Lütfen bu üniversiteyi tercih ediniz.")</script> <!--Sayfanın uyarı mesajı -->
+  <figure> <!-- Resim eklemek için -->
+  <img src="ostimtech.jpg" width="300" height="200"> <!--Resim lokasyon ve en/boy -->
+  <figcaption>Resim 1:Ostim</figcaption> <!--Resim açıklaması -->
+  <dfn title="Ankara'da Bir Üniversite">OSTİM'e</dfn> gel <!--Resim açıklamasının altına yazı -->
+  <nav>
+   <ul>
+   <li><a href="#">Anasayfa...</a></li>
+   <li><a href="#">Hakkımızda...</a></li>
+   <li><a href="#">Aday Öğrenci...</a></li>
+   </ul>
+  </nav>
+  </figure>
+  <h3>MİSYON VE VİZYON</h3> <!--Başlık -->
+  <h5>Misyon</h5>
+  <p>Sanayi ile iç içe olarak ileri <b>teknoloji ile desteklenmiş</b> bir ortamda, öğrenme ve araştırma yeteneklerini kazanmış, <i>teknik açıdan</i> mezun olduğu gün bilgilerini <span style="color:red">etkin olarak</span> kullanabilecek düzeyde yetkinleştirilmiş, çevre ve toplumsal sorunlara duyarlı <u>bilgisayar mühendisleri</u> yetiştirmek.</p> <!--Paragraf -->
+  <h5>Vizyon</h5>
+  <p>Alanında <abbr title="Profesyonel">uzman</abbr> bilim insanlarını barındıran, <mark>yazılım mühendisliği</mark> gelecek teknolojilerine katma değer yaratacak araştırma ve eğitim <s>ortası</s> ortamı sağlayan, milli ve uluslararası ölçütlerde ARGE ve ÜRGE yapan <q>saygın bir bölüm </q>olabilmektir.</p>
+  <small>Tüm hakları saklıdır.</small>
+  <table border="3"> <!--Tablo oluşturma -->
+  <caption>Akademik Başarı İndirimi Tablosu</caption> <!--Tablo adı -->
+  <colgroup> <!--Tablodaki sütunları boyama -->
+  <col span="2" style="background:rgb(196, 196, 2)"> <!--1.sütunu 1.col boyar --> <!--spanle 2 sütunu rede boyar -->
+  <col style="background:yellow"> <!--2.sütunu sarıya boyar -->
+  </colgroup>
+  <thead> <!--Tablonun ilk kısmı -->
+  <tr><!--Sütun açmak -->
+    <th>Bölümde Başarı Sıralaması</th> <!--Başlıklar -->
+    <th>İndirim Oranı</th>
+  </tr>
+  </thead>
+  <tbody> <!--Tablo elemanları -->
+  <tr>
+   <td>1</td> <!--Bir sütunu yan yana getiriyor-->
+   <td>%50</td>
+  </tr>
+  <tr>
+   <td>2</td>
+   <td>%25</td>
+  </tr>
+  <tr>
+  <td>3</td>
+  <td>%15</td>
+  </tr>
+  </tbody>
+  <tfoot> <!-- Tablonun son kısmı -->
+  <tr>
+   <td colspan="2">Toplam tutar</td> <!--2 hücreyi bir tanede birleştirme -->
+   </tr>
+  </tfoot>
+  </table>
+  <h3>FARKLILIKLARIMIZ</h3>
+  <ol> <!--OL ETİKETİ (1,2,3 SIRALAMA)-->
+    <li>Simülasyonla öğrenme</li>
+	<li>Web tabanlı öğrenme</li>
+	<li>Proje hazırlama</li>
+	</ol>
+   <ul> <!-- UL ETİKETİ (SIRASIZ SIRALAMA)-->
+   <li>Yerinde uygulama</li>
+   <li>Staj</li>
+   <li>Mesleki Faaliyet</li>
+   </ul>
+   <ol reversed start="2"> <!--OL ETİKETİ (2'DEN GERİYE SIRALAMA)-->
+   <li>Sosyal Faaliyet</li>
+   <li>Alan Çalışması</li>
+   </ol>
+   <a href="#ust">Başa Dön..</a>
+</body>
+</html>
